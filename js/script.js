@@ -99,7 +99,7 @@ document.addEventListener('mousemove', function(e) {
 
 document.addEventListener("DOMContentLoaded", function() {
   // Текст заголовка
-  let mainText = "АООТ \"Ätiýaçlandyryş merkezi\" — Комплексные страховые решения";
+  let mainText = "АООТ \"Атиячландырыш меркези\" — Комплексные страховые решения";
 	
   // Получаем ссылку на элемент заголовка
   let typingMain = document.getElementById('typing__text');
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-	let mainTextEn = "\"Ätiýaçlandyryş merkezi\" OJSC - Comprehensive insurance solutions";
+	let mainTextEn = "\"Atiyachlandyrysh Merkezi\" OJSC - Comprehensive insurance solutions";
 
 	let typingMainEn = document.getElementById('typing__text-en');
 
