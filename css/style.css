@@ -139,6 +139,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+    align-items: center;
 }
 .menu__link {
   font-size: 20px;
@@ -171,14 +172,13 @@ body {
 }
 .header__button {
   padding: 15px 40px;
+  display: inline-block;
   font-size: 20px;
   font-weight: 400;
   color: #181a38;
   border-radius: 35px;
   border: 1px solid #181a38;
   background-color: rgba(208, 214, 238, 0.301);
-  position: relative;
-  overflow: hidden;
   letter-spacing: 1px;
 }
 .header__button:hover {
@@ -267,7 +267,7 @@ body {
 
   .menu__list > li {
     flex-wrap: wrap;
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
     flex: 1 1 100%;
   }
 
@@ -280,11 +280,12 @@ body {
   }
 
   .menu__link {
-    font-size: 26px;
+    font-size: 24px;
     color: white;
   }
-  .header__button {
-    display: none;
+  .header__button{
+    color: white;
+    font-size: 24px;
   }
 }
 /* =================================================================================================== */
