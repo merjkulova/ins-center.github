@@ -249,3 +249,8 @@ document.addEventListener('mousemove', function(e) {
   const amountMovedY = (e.clientY / window.innerHeight) * 40;
   background.style.transform = `translate(-${amountMovedX}px, -${amountMovedY}px)`;
 });
+
+// alert for button contact-us
+function func_1(){
+	alert('Кнопка отправки находится в разработке')
+}
